@@ -12,8 +12,8 @@
     "serve:ssr": "node dist/server",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
     "build:client-and-server-bundles": "ng build --prod && ng run spaceX:server:production --bundleDependencies all",
-    "start:heroku":"node dist/server",
-    "postinstall":"npm run build:ssr" 
+    "start:heroku": "node dist/server",
+    "postinstall": "npm run build:ssr"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +28,7 @@
     "@angular/router": "~8.2.14",
     "@nguniversal/express-engine": "^8.2.6",
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
+    "compression": "^1.7.4",
     "express": "^4.15.2",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
