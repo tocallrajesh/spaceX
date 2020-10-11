@@ -1,0 +1,79 @@
+<div id="wrapper">
+    <div id="container" class="container">        
+        <div>
+            <h2>SpaceX Launch Programs</h2>
+        </div>
+        <div id="side-a" class="side-a">            
+            <div style="font-weight: bold;">Filters</div>
+            <div style="text-align: center;">
+                <div>
+                    Launch Year
+                </div>
+                <hr class="hr-line">
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2006','yearFilter')">2006</div>
+                    <div class="year float-right" (click)="filterByYear('2007','yearFilter')">2007</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2008','yearFilter')">2008</div>
+                    <div class="year float-right" (click)="filterByYear('2009','yearFilter')">2009</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left float-left" (click)="filterByYear('2010','yearFilter')">2010</div>
+                    <div class="year float-right" (click)="filterByYear('2011','yearFilter')">2011</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2012','yearFilter')">2012</div>
+                    <div class="year float-right" (click)="filterByYear('2013','yearFilter')">2013</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2014','yearFilter')">2014</div>
+                    <div class="year float-right" (click)="filterByYear('2015','yearFilter')">2015</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2016','yearFilter')">2016</div>
+                    <div class="year float-right" (click)="filterByYear('2017','yearFilter')">2017</div>
+                    <div class="clear"></div>
+                </div>
+                <div>
+                    <div class="year float-left" (click)="filterByYear('2018','yearFilter')">2018</div>
+                    <div class="year float-right" (click)="filterByYear('2019','yearFilter')">2019</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear('2020','yearFilter')">2020</div> 
+                    <div class="clear"></div>                   
+                </div>
+                <div class="filter-div-margin">
+                    Successful Launch
+                </div>
+                <hr class="hr-line">
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear(true,'launch_success')">True</div>
+                    <div class="year float-right" (click)="filterByYear(false,'launch_success')">False</div>
+                    <div class="clear"></div>
+                </div>
+                <div>
+                    Successful Landing
+                </div>
+                <hr class="hr-line">
+                <div class="filter-div-margin">
+                    <div class="year float-left" (click)="filterByYear(true,'landing_success')">True</div>
+                    <div class="year float-right" (click)="filterByYear(false,'landing_success')">False</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div><!-- /side-a -->
+        <div id="main" class="two-column">            
+            <app-spacex-list [spaceXData]="spaceXDataTemp$ | async"></app-spacex-list>
+        </div><!-- /main two-column -->
+        <footer id="footer" class="footer" role="footer">
+            <h4>Developed By :: Rajesh Kumar Sahoo</h4>
+        </footer><!-- /footer -->
+    </div><!-- /container -->
+</div><!-- /wrapper -->

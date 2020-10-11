@@ -1,0 +1,25 @@
+<div *ngFor="let data of spaceXData" class="panel-196 spX-panel">
+    <div class="thumbnail">
+        <img src="{{data.links.mission_patch_small}}" alt="" style="background-color:#eeeeee">
+        <div class="caption">
+            <label>{{data.mission_name}} #{{data.flight_number}}</label>
+            <div>
+                <label for="missionId" class="lbl">Mission Ids :</label>
+                <span> {{data.mission_id}}</span>
+            </div>
+            <div>
+                <label for="launchYear" class="lbl">Launch Year :</label>
+                <span> {{data.launch_year}}</span>
+            </div>
+            <div>
+                <label for="successfulLaunch" class="lbl">Successful Launch :</label>
+                <span> {{data.launch_success}}</span>
+            </div>
+            <div>
+                <label for="successfulLanding" class="lbl">Successful Landing :</label>
+                <span> {{data.launch_landing}}</span>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,166 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    line-height: 1.5em;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    width: 100%;    
+    padding: 0px 10px 5px 0px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .wrapper {
+    width: 100%;
+    text-align: center; /* center hack */
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1024px;
+    text-align: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto; /* center hack */
+    padding: 10px;
+    background-color: #eeeeee;
+  }
+  
+  .header {
+    display: block;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+    padding: 20px;
+  }
+  
+  .main {
+    word-wrap: break-word;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .two-column {
+    float: none;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  .side-a {
+    float: left;    
+    width: 200px;
+    word-wrap: break-word;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 20px;
+    padding: 10px 10px;
+  }
+  
+  .footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 80px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px 0 0 0;
+    padding: 20px;
+  }
+  
+  .main-menu ul {
+    list-style: none;
+  }
+  
+  .main-menu li {
+    margin-bottom: 10px;
+  }
+  .main-menu li span {
+    padding: 7px 20px;
+    background-color: #7db90266;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  .main-menu li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .main-menu a:link,
+  .main-menu a:visited {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    background-color: #dddddd;
+    padding: 8px 10px;
+  }
+  
+  .main-menu a:hover {
+    color: #ffffff;
+    background-color: #cccccc;
+  }
+  
+  /* media queries */
+  @media only screen and (max-width: 700px) {
+    .container {
+      width: 100%;
+      max-width: 700px;
+    }
+    .side-a {
+      float: none;
+      position: static;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.year{
+    padding:5px 25px;
+    background-color: #c6df9a;
+    border-radius: 4px;
+  }
+  .year:hover{
+    background-color: #7cba01;
+    cursor: pointer;
+  }
+  .float-right{
+    float: right;  
+  }
+  .float-left{
+    float: left;
+  }
+  .padding-5-20{
+    padding: 5px 20px;
+  }
+  .clear{
+    clear: both;
+  }
+  .hr-line{
+    height:1px;border-width:0;color:gray;background-color:#eeee
+  }
+  .filter-div-margin{
+    margin: 10px 0px 10px 0px;
+  }

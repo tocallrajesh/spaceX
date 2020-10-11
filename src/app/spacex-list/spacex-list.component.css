@@ -1,0 +1,71 @@
+ .panel-196 {
+    width: 186px;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+  }
+  .spX-panel {
+    word-wrap: break-word;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .thumbnail {
+    display: block;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;    
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+  }
+  .thumbnail .caption {
+    padding: 3px 0px;
+    color: #333;
+  }
+  .caption > label {
+    color: #00008b9e;
+    font-weight: 600;
+  }
+  .caption .lbl {
+    color: black;
+    font-size: 11px;
+  }
+  .caption span {
+    color: #00008b9e;
+  }
+  .notAvail{   
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #bbb;
+  }
+  @media only screen and (max-width: 700px) {
+    .panel-196 {
+      width: 19.0625em;
+      display: inherit;
+      margin: 0px 5px 5px 5px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) and (min-width: 700px) {
+    .panel-196 {
+      width: 13.4375em;
+      display: inline-block;
+      margin: 0px 5px 5px 5px;
+    }
+  }
+  
+  @media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .panel-196 {
+      width: 15em;
+      margin: 0px 5px 5px 5px;
+    }
+  }
+  
