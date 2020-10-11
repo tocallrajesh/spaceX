@@ -17,6 +17,7 @@ git clone https://github.com/tocallrajesh/spaceX.git
 This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
 
 cd spaceX
+
 npm install
 
 ## To run the Development UI Server
