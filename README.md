@@ -30,6 +30,7 @@ The application is available at port 4200: http://localhost:4200
 To run the application in development mode but still have it server side rendered:
 
 npm run build:ssr
+
 npm run serve:ssr
 
 Open a browser and navigate to http://localhost:4000/ for access this application.
