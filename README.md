@@ -2,25 +2,40 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
-## Development server
+## Installation pre-requisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Please use the latest Node long-term support (LTS) version.
 
-## Code scaffolding
+## Installing the Angular CLI
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm install -g @angular/cli
 
-## Build
+## How To install this repository
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+git clone https://github.com/tocallrajesh/spaceX.git
 
-## Running unit tests
+This repository is made of several separate npm modules, that are installable separately. For example, to run the au-input module, we can do the following:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+cd spaceX
 
-## Running end-to-end tests
+npm install
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## To run the Development UI Server
+
+npm start
+
+The application is available at port 4200: http://localhost:4200
+
+## To run the Angular Universal Live Development Server
+
+To run the application in development mode but still have it server side rendered:
+
+npm run build:ssr
+
+npm run serve:ssr
+
+Open a browser and navigate to http://localhost:4000/ for access this application.
+
 
 ## Further help
 
